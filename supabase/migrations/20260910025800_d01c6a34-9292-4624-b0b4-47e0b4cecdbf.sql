@@ -1,0 +1,1 @@
+DELETE FROM public.messages WHERE body = 'Тестовое сообщение из проверки';

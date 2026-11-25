@@ -1,0 +1,1 @@
+ALTER TYPE public.doc_category ADD VALUE IF NOT EXISTS 'payment_details';

@@ -1,0 +1,1 @@
+ALTER TABLE public.projects ADD COLUMN managed_by text NOT NULL DEFAULT 'Managed by LUXSO';

@@ -1,0 +1,2 @@
+ALTER TABLE public.reports ADD COLUMN no_roi_payment boolean NOT NULL DEFAULT false;
+ALTER TABLE public.reports ADD CONSTRAINT reports_no_roi_payment_valid CHECK (NOT no_roi_payment OR (report_type = 'roi' AND net_payout = 0 AND NOT is_paid AND paid_at IS NULL));

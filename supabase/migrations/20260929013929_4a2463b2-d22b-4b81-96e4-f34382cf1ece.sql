@@ -1,0 +1,1 @@
+ALTER FUNCTION public.has_staff_role(uuid, public.staff_role) SECURITY INVOKER;

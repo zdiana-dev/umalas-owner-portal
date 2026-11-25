@@ -1,0 +1,1 @@
+ALTER TABLE public.units ADD COLUMN rental_pool_start date;

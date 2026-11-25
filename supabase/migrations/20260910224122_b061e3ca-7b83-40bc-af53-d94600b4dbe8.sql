@@ -1,0 +1,1 @@
+REVOKE ALL ON FUNCTION public.notify_owners_of_payout() FROM PUBLIC, anon, authenticated;

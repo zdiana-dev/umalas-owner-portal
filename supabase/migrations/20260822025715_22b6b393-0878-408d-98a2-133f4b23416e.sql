@@ -1,0 +1,1 @@
+update public.profiles set role = 'admin' where email = 'z.diana@magnumesate.pro';

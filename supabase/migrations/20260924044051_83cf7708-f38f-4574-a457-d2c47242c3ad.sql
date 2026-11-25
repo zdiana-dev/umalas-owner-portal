@@ -1,0 +1,1 @@
+ALTER TABLE public.units DROP CONSTRAINT units_code_key; ALTER TABLE public.units ADD CONSTRAINT units_project_code_key UNIQUE (project_id, code);

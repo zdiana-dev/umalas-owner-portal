@@ -1,0 +1,1 @@
+ALTER TABLE public.units ADD COLUMN IF NOT EXISTS land_area numeric, ADD COLUMN IF NOT EXISTS building_area numeric;

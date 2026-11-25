@@ -1,0 +1,1 @@
+UPDATE public.documents SET title = 'CLA/ILA' || substring(title from 4) WHERE title ILIKE 'MoU%';

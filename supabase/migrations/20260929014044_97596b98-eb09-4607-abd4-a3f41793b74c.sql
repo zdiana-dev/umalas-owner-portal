@@ -1,0 +1,1 @@
+CREATE POLICY "Finance read owner profiles" ON public.profiles FOR SELECT TO authenticated USING (public.has_staff_role(auth.uid(), 'finance'::public.staff_role));

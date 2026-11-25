@@ -1,0 +1,1 @@
+UPDATE public.units SET code = '90' || substring(code from 2) WHERE project_id = '6b844fcf-70ac-4be3-9316-4270e843f6ac' AND code ~ '^A([1-9]|10)$';

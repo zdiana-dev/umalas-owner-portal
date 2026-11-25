@@ -1,0 +1,1 @@
+ALTER TABLE public.reports ADD COLUMN IF NOT EXISTS due_date date;
